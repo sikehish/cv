@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- https://www.w3schools.com/html/html_favicon.asp -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>My Contact Details</h1>
+<p>Fictional Address</p>
+<p>Number: 709019992</p>
+<p>hishamrocks@hisham.com</p>
+
+<!-- Form input types https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+<!-- methods in form https://www.w3schools.com/tags/att_form_method.asp -->
+
+<form action="mailto:hisham0502@gmail.com" method="post" enctype="text/plain">
+    <div>
+    <label for="name">Your name:</label> 
+    <input type="text" name="yourName" id="name">
+    </div> 
+    <div>
+    <label for="email">Your Email:</label> <input type="email" name="yourEmail" id="email">
+    </div>
+    <div>
+    <label for="message">Your message:</label> <br><textarea name="yourMessage" id="message" cols="30" rows="10">hey there</textarea>
+    </div>
+    <div>
+        <input type="submit" value="Submit Now">
+    </div>
+</form>
+
+</body>
+</html>
